@@ -1,0 +1,135 @@
+<html>
+  <head>
+    <title>Code in the Dark</title>
+    <style>
+      * {
+        margin: 0;
+      }
+
+      body {
+        font-family: arial;
+        background: #F8F8F8;
+      }
+
+      .nav {
+        background: white;
+        border-bottom: 1px solid #E0E0E0;
+        margin-bottom: 32px;
+        padding: 16px 0;
+      }
+
+      .nav h1 {
+        margin-left: 160px;
+        font-size: 24px;
+      }
+
+      .content {
+        margin: 0 160px;
+      }
+
+      .profile {
+        height: 256px;
+        margin-bottom: 32px;
+      }
+
+      .profile #left {
+        width: 33%;
+        float: left;
+        text-align: center;
+      }
+
+      .profile #left img {
+        border: 1px solid #E0E0E0;
+        border-radius: 50%;
+        margin: 16px auto;
+      }
+
+      .profile #right {
+        width: 66%;
+        float: right;
+        font-size: 20px;
+      }
+
+      .username {
+        font-weight: 400;
+        font-size: 32px;
+        margin-bottom: 24px;
+      }
+
+      .stats {
+        margin-bottom: 24px;
+      }
+
+      .stat {
+        display: inline;
+        margin-right: 24px;
+      }
+
+      .name {
+        font-weight: bold;
+        line-height: 24px;
+      }
+
+      .bio {
+        margin-bottom: 16px;
+        line-height: 24px;
+      }
+
+      .followers {
+        font-size: 12px;
+      }
+
+      hr {
+        border: 1px solid #E0E0E0;
+        border-bottom: 0;
+      }
+
+      .posts {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+      }
+
+      .posts img {
+        margin: 16px;
+        width: 240px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="nav">
+      <h1>Hackstagram</h1>
+    </div>
+
+    <div class="content">
+      <div class="profile">
+        <div id="left">
+          <img src="assets/logo.png" />
+        </div>
+        <div id="right">
+          <h2 class="username">hackillinois</h2>
+          <div class="stats">
+            <div class="stat"><b>28</b> posts</div>
+            <div class="stat"><b>373</b> followers</div>
+            <div class="stat"><b>30</b> following</div>
+          </div>
+          <div>
+            <div class="name">HackIllinois</div>
+            <p class="bio">Explore, Connect, and Build at the Nation's Premier Open Source Hackathon. Feb 28 - Mar 1, 2020.</p>
+          </div>
+          <p class="followers">Followed by <b>bstrauch24</b>, <b>im.rishin</b> + 14 more</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="posts">
+        <img src="assets/logo.png" />
+        <img src="assets/logo.png" />
+        <img src="assets/logo.png" />
+      </div>
+    </div>
+  </body>
+</html>
